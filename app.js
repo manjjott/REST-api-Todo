@@ -5,7 +5,12 @@ const db = require("./data/database");
 const todoRoutes = require("./routes/todo-routes");
 
 const app = express();
+const enableCors = require("./middlewares/cors");
 
+
+
+// it should be used by express for every request
+app.use(enableCors);
 app.use(express.json());
 
 app.use("/todos", todoRoutes);
