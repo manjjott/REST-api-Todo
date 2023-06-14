@@ -55,6 +55,3 @@ Cross-Origin Resource Sharing (CORS) is enabled in this API, allowing requests f
 
 Happy coding! :rocket:
 
-### Get Todos
-
-**Request:**
