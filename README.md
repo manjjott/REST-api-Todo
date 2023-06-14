@@ -53,7 +53,7 @@ Cross-Origin Resource Sharing (CORS) is enabled in this API, allowing requests f
 2. Install the dependencies using `npm install`.
 3. Run the server using `npm start`.
 
-## Examples :books:
+Happy coding! :rocket:
 
 ### Get Todos
 
