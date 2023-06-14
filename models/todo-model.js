@@ -40,3 +40,6 @@ class Todo {
     return await db.getDb().collection("todos").deleteOne({ _id: todoId });
   }
 }
+
+
+module.exports = Todo;
